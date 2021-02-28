@@ -7,7 +7,7 @@
 
 ______________
 
-## Abaut me:
+## About me:
 
 As a child, I loved programming. I studied the Basic, Pascal at school.
 For 20 years I worked in a commercial IT company in various positions, now I want to go back to my favorite activity.
