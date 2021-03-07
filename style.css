@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  li {
+    list-style-type: none;
+   }
+
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgrey;
+  }
+
+  header {
+    color: lightgray;
+    margin-top: 20px;
+  }
+
+  .header-wrap {
+    background-color: darkslategray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around; 
+  }
+
+  .section-wrap {
+    background-color: darkslategray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around; 
+  }
+
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+  }
+
+  figure > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 5px white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  figure {
+    flex: 1;
+    display: flex;
+    align-content: center;
+  }
+
+  .left-section {
+    flex: 3;
+  }
+
+  .left-section > h1 {
+    text-align: center;
+    margin: 25px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+   nav > article > a {
+    font-size: 20px;
+    height: 25px;
+    color: #f9f9f9;
+    transition: 0.3s;
+    transform: scale(1.0)
+  }
+
+  nav > article {
+    transition: 0.3s;
+    transform: scale(1.0);
+  }
+
+  nav > article:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+  }
+
+  aside {
+    padding-top: 30px;
+    flex: 1;
+  }
+
+  section {
+    padding-top: 30px;
+    flex: 3;
+  }
+
+  section > article > h3 {
+    margin-left: -200px;
+    padding: 5px;
+    color: darkslategray;
+    background-color: white;
+    border-radius: 5px;
+    width: 280px;
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    color: darkslategray;
+  }
+
+  section > article > h3::before {
+    position: relative;
+    content: "";
+    border: 15px solid transparent;
+    border-top: 15px solid white;
+    left: 240px;
+    top: 40px;
+  }
+
+  section > article > p, ul{
+    padding: 20px;
+    background-color: rgb(56, 105, 103);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+  }
+
+  li > a {
+    color: white;
+  } 
+  
